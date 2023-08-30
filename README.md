@@ -65,13 +65,13 @@ While classical NER systems, such as widely used spaCy, classify entities to hig
 The setup for ReFinED is very simple because the data files and datasets are downloaded automatically.
 1. Install the dependencies using the command below:
 ```commandline
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 If the command above fails (which currently, happens on a Mac), run the commands below instead:
 ```commandline
 conda create -n refined38 -y python=3.8 && conda activate refined38
 conda install -c conda-forge python-lmdb -y
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 2. Add the `src` folder to your Python path. One way to do this is by running this command:
