@@ -10,7 +10,7 @@ export PYTHONPATH=$PYTHONPATH:src
 ```
 2. Run the fine_tune.py script (to list the arguments and help, run `fine_tune.py -h`):
 ```
-python3 src/refined/training/fine_tune.py --experiment_name test
+python3 src/refined/training/fine_tune/fine_tune.py --experiment_name test
 ```
 
 The `fine_tune.py` script will automatically download the training and development split for the CoNLL-AIDA dataset and 
